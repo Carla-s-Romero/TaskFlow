@@ -1,0 +1,6 @@
+# Root-level env file used by docker-compose.yml
+.env
+
+# OS
+.DS_Store
+Thumbs.db

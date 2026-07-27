@@ -1,0 +1,49 @@
+# Dependências
+node_modules/
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.development
+.env.production
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build / arquivos gerados
+dist/
+build/
+coverage/
+
+# Cache
+.cache/
+.npm/
+.eslintcache
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Testes
+.nyc_output/
+
+# Uploads (caso sua API salve arquivos)
+uploads/
+storage/
+
+# Banco local
+*.sqlite
+*.sqlite3
+*.db
