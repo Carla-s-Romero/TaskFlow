@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { Mail, Lock, EyeOff, Eye
 } from "lucide-react";
 import logo from '../../assets/logo.png'
@@ -76,7 +77,7 @@ export default function SignIn() {
             <div className="space-y-1">
               <div className='flex justify-between text-sm font-medium'>
                 <label htmlFor="password" className="text-gray-700">Senha</label>
-                <a href="" className='text-[#4F378A]'>Esqueceu sua senha?</a>
+                <link href="" className='text-[#4F378A]'>Esqueceu sua senha?</link>
               </div>
 
               <div className="relative">
@@ -111,9 +112,9 @@ export default function SignIn() {
 
           <footer className="flex items-center justify-center gap-1 mt-4 text-sm">
             <p>Não tem uma conta?</p>
-            <a href="/signup" className="text-[#4F378A] font-medium">
-              Criar conta gratuita
-            </a>
+              <Link to="/cadastro" className="text-[#4F378A] font-medium">
+                Criar conta gratuita
+              </Link>
           </footer>
 
         </section>
