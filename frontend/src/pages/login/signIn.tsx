@@ -69,7 +69,6 @@ export default function SignIn() {
                 <input 
                   id="email"
                   type="text" 
-                  typeof='email'
                   placeholder='nome@empresa.com'
                   className="w-full rounded-lg border pl-8 h-10"/>
               </div>
@@ -77,7 +76,7 @@ export default function SignIn() {
             <div className="space-y-1">
               <div className='flex justify-between text-sm font-medium'>
                 <label htmlFor="password" className="text-gray-700">Senha</label>
-                <Link href="" className='text-[#4F378A]'>Esqueceu sua senha?</Link>
+                <Link to="" className='text-[#4F378A]'>Esqueceu sua senha?</Link>
               </div>
 
               <div className="relative">
@@ -88,7 +87,6 @@ export default function SignIn() {
                 <input 
                   id="password"
                   type={showPassword ? "text" : "password"}
-                  typeof='password'
                   placeholder='••••••••'
                   className="w-full rounded-lg border pl-8 h-10"/>
 
