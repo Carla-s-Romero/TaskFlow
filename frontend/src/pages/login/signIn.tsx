@@ -1,7 +1,9 @@
 import { useState } from "react";
-import { Mail, Lock, EyeOff, Eye, ArrowRight} from "lucide-react";
+import { Mail, Lock, EyeOff, Eye
+} from "lucide-react";
 import logo from '../../assets/logo.png'
 import banner from '../../assets/Banner.png'
+import ButtonDefault from '../../component/Button/Default'
 import './style.css'
 
 export default function SignIn() {
@@ -105,19 +107,7 @@ export default function SignIn() {
               </div>
             </div>
         
-            <button
-              type="submit"
-              className="
-              flex justify-center 
-              w-full 
-              bg-[#4F378A]
-              hover:bg-[#3D286E]
-              text-white text-sm 
-              rounded-lg py-2
-              transition-all duration-300"
-            >
-              Entrar no TaskFlow <ArrowRight size={15} className="m-1 text-white" />
-            </button>
+            <ButtonDefault type="submit">Entrar no TaskFlow</ButtonDefault>
 
           </form>
 
