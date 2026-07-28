@@ -17,7 +17,6 @@ export default function SignIn() {
           <p className="">TaskFlow</p>
         </div>
 
-        <div className='flex justify-center items-center'>
         <div className="flex justify-center items-center">
           <div className="login-card">
             <img
@@ -32,7 +31,6 @@ export default function SignIn() {
               <div className="h-2 w-6 rounded-full bg-white/20" />
             </div>
           </div>
-        </div>
         </div>
         
         <div>
