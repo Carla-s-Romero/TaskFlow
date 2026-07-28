@@ -77,7 +77,7 @@ export default function SignIn() {
             <div className="space-y-1">
               <div className='flex justify-between text-sm font-medium'>
                 <label htmlFor="password" className="text-gray-700">Senha</label>
-                <link href="" className='text-[#4F378A]'>Esqueceu sua senha?</link>
+                <Link href="" className='text-[#4F378A]'>Esqueceu sua senha?</Link>
               </div>
 
               <div className="relative">
