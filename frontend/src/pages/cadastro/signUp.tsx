@@ -18,7 +18,7 @@ export default function SignUp() {
           <p>TaskFlow</p>
         </div>
 
-        <div className="justify-center items-center w-120 pl-10">
+        <div className="justify-center items-center md:w-100 lg:w-120 sm:w-auto pl-10">
           <h1 className="text-2xl text-white font-bold">
             Transforme a produtividade da sua equipe com precisão.
           </h1>
