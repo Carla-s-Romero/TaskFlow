@@ -70,7 +70,7 @@ export default function SignIn() {
                   id="email"
                   type="text" 
                   placeholder='nome@empresa.com'
-                  className="w-full rounded-lg border pl-8 h-10"/>
+                  className="w-full rounded-lg border border-gray-300 pl-8 h-10"/>
               </div>
 
             <div className="space-y-1">
@@ -88,7 +88,7 @@ export default function SignIn() {
                   id="password"
                   type={showPassword ? "text" : "password"}
                   placeholder='••••••••'
-                  className="w-full rounded-lg border pl-8 h-10"/>
+                  className="w-full rounded-lg border border-gray-300 pl-8 h-10"/>
 
                   <button
                     type="button"
